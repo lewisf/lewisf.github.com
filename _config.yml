@@ -9,10 +9,10 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Lessons learned
-tagline: My thoughts on steroids
+title : lewis chung
+tagline: aspiring software engineer
 author :
-  name : Lewis Chung
+  name : lewis chung
   email : lewis.f.chung@gmail.com
   github : lewisf
   twitter : lewisbang
