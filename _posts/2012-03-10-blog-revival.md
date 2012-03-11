@@ -6,13 +6,18 @@ tags: []
 ---
 {% include JB/setup %}
 
-Unfortunately, my life's been a rollercoaster, and I haven't been
-as productive as I would have liked to be for the past 9 weeks.
-It's time to get back on track, and in trying to get into a fresh
-start, I decided to revive this blog.
+Unfortunately, for the past few week's my life's been kind of crazy
+due to the rush to figure out where I'm going to be this summer. It has
+been hard trying to balance university homework and studies, side
+projects I've promised to work on, and interviews/code challenges for
+the interviews.
 
-I decided to opt out of using octopress and going with jekyll bootstrap
-w/ Tom Preston Warner's jekyll theme. It's cool how easy it was to setup
-and how much cleaner this seems. Going to try to post more
-regularly so I can document my academic/professional progress
-throughout my life.
+It is my failure, however, that I was unable to successfully deal with
+all of this. I ended up dropping out of a course this quarter, because
+I wasn't handling the load (I feel like in tip top shape, I could've
+handled it), and I pretty much failed across the board in keeping up
+with side projects.
+
+In trying to put this all behind me, I decided to revive this blog
+anew. Hopefully, this time around, I'll be posting more regular
+updates about my academic and professional work.
