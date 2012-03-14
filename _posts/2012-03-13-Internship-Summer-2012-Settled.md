@@ -8,8 +8,8 @@ tags: ["technical interview", "internship", "summer 2012"]
 
 It's currently the week before finals, and I just got good news that **I'll 
 most likely be heading to Seattle in the summer** to gain experience in the 
-field of my studies. Exciting! All that's done is for me to go through
-all the legal stuff - no more worrying about having something to do this
+field of my studies. Exciting! All that's left for me to do is go through
+all the legal stuff and then no more worrying about having something to do this
 summer.
 
 **Things I've learned throughout the application process:**
@@ -24,9 +24,15 @@ them your resume. Worst case scenario, you'll learn a bit about their
 company and perhaps how to better prepare yourself next time.
 
 3. An often overlooked source of summer internships by undergrads are
-startups. **Startups are a BIG source of internships**, and there are many
-of them. Apply for startup internships - it may be easier to find yourself
-a fit.
+startups. **Startups are a BIG source of internships** ... there are
+A LOT of them who are looking for interns.
+Apply for startup internships - it may be easier to find yourself
+a fit. Also remember, winner's can't be choosers. It's much better
+to have an internship over the summer with a small salary than no internship
+at all. I went through a stage where I agreed to intern at a startup for
+awhile, with minimal benefits, in order to get experience. That experience
+pushed me on to try newer and greater things. It is the experience that matters
+not the pay, especially when you're still in school.
 
 4. *startupdigest.com* - A good resource for starting talks with startups.
 
