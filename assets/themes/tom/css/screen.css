@@ -147,8 +147,8 @@ ul.posts {
         filter: gray;
         border-radius: 13px;
         -webkit-border-radius: 13px;
-        box-shadow: 0 0 5px #a00;
-        -webkit-box-shadow: 0 0 5px #a00;
+        box-shadow: 0 0 5px rgba(170,0,0,0.4);
+        -webkit-box-shadow: 0 0 5px rgba(170,0,0,0.4);
         color: #a00;
       }
 
