@@ -12,7 +12,8 @@ field of my studies. Exciting! All that's left for me to do is go through
 all the legal stuff and then no more worrying about having something to do this
 summer.
 
-**Things I've learned throughout the application process:**
+**Things I've learned during the application process, hopefully this will
+be useful to future summer internship applicants:**
 
 1. **Don't get lazy, apply everywhere.** Start early and don't
 stop applying until you've found a place.
