@@ -12,17 +12,17 @@ field of my studies. Exciting! All that's left for me to do is go through
 all the legal stuff and then no more worrying about having something to do this
 summer.
 
-**Things I've learned during the application process, hopefully this will
+**Compilation of tips given to me and things I've learned during the application process, hopefully this will
 be useful to future summer internship applicants:**
 
 1. **Don't get lazy, apply everywhere.** Start early and don't
 stop applying until you've found a place.
 
 2. **Go to career fairs.** Listen to what the people manning the booths talk
-about and try to find an interest of yours relevant to theirs, so you'll
-have something to talk about. Most importantly - TALK, don't just hand
-them your resume. Worst case scenario, you'll learn a bit about their
-company and perhaps how to better prepare yourself next time.
+about and try to find an interest of yours relevant to theirs, so you can
+hold an interesting conversation. If you don't score an interview, you'll learn a bit about their
+company and perhaps find out how to better prepare yourself next time.
+
 
 3. An often overlooked source of summer internships by undergrads are
 startups. **Startups are a BIG source of internships** ... there are
