@@ -2,7 +2,7 @@
 layout: post
 title: "Headed to Seattle for Summer 2012"
 category: 
-tags: ["technical interview", "internship", "summer 2012"]
+tags: ["internship", "summer", "advice"]
 ---
 {% include JB/setup %}
 
