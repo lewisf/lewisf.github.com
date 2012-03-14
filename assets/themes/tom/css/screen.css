@@ -139,6 +139,16 @@ ul.posts {
         color: #8085C1;
       }
 
+      .site .footer .contact img {
+        margin: 10px 20px 10px 20px;
+        filter: gray;
+        border-radius: 13px;
+        -webkit-border-radius: 13px;
+        box-shadow: 0 0 5px #a00;
+        -webkit-box-shadow: 0 0 5px #a00;
+        color: #a00;
+      }
+
     .site .footer .rss {
       margin-top: 1.1em;
       margin-right: -.2em;
