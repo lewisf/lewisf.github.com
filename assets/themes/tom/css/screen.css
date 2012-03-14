@@ -131,6 +131,9 @@ ul.posts {
   }
 
     .site .footer .contact {
+      font-family: Helvetica, Arial, sans-serif;
+      text-align: center;
+      font-weight: bold;
       float: left;
       margin-right: 3em;
     }
