@@ -1,6 +1,6 @@
 ---
 layout: page
-title: lewis chung's blog!
+title: Lewis Chung
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
