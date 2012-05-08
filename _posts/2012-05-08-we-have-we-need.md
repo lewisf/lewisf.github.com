@@ -6,20 +6,22 @@ tags: []
 ---
 {% include JB/setup %}
 
-**We Have We Need** intends to be a Craigslist for Humanitarians and NGOS. 
-Currently led by Jon Wong ([@jnwng](http://twitter.com/#!/jnwng), it's an
-awesome attempt at solving the problem of supply deficiencies due to
+**We Have We Need** intends to be a Craigslist for medical supplies targetted at Humanitarians and NGOS.
+Currently led by Jon Wong ([@jnwng](http://twitter.com/#!/jnwng), it's a project
+that saw its origins about 30 weeks ago, is built by a team of students during their
+offtime, and an overall awesome attempt at solving the problem of supply deficiencies due to
 a lack of communication and supply management in regions of the world that 
 suffer from frequent disease outbreaks.
 
-I, along with some others joined [We Have We Need](http://www.wehave-weneed.org)
-about 5 weeks ago out of interest in the project and admittedly Jon doing 
-a good job recruiting me to the project. I was partially heartbroken when I found
-the project to be in Django (as I had no prior Django experience) but the experience
-of learning Django has been pleasant, probably because of some of its similarities to
-Rails and the experience of those around me.
+I [@_lewisf](http://twitter.com/#!/_lewisf), along with some other students joined 
+[We Have We Need](http://www.wehave-weneed.org) about 5 weeks ago out of interest in the 
+project and admittedly Jon doing  a good job recruiting me to the project. I was 
+partially heartbroken when I found the project to be in Django (as I had no prior 
+Django experience) but the experience of learning Django has been pleasant, probably 
+because of some of its similarities to Rails and the experience of those around me.
 
-Here are just a couple of notes on my switch from Rails to django.
+Here are just a couple things I noted on my switch from Rails to Django over the course
+of the last 5 weeks.
 
 - **Asset Pipeline.** Rails 3 has spoiled me with the built in asset pipeline, and the
 advantages it presents developers with - most importantly stylesheet, script organization.
