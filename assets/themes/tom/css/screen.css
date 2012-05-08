@@ -126,7 +126,7 @@ ul.posts {
     top: 50px;
     left: 0px;
     padding: 10px;
-    background: #a4d6ce;
+    background: url("/assets/images/noise.jpg");
     max-height: 50%;
     font-size: 80%;
     color: #444;
