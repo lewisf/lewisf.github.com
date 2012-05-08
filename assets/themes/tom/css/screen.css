@@ -17,17 +17,16 @@ html, body {
 
 body {
   background-color: white;
-  /* font: 13.34px helvetica, arial, clean, sans-serif; */
-  color: #232323
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #444;
+  font-family: “Palatino Linotype”,”Book Antiqua”,Palatino,FreeSerif,serif;
   /*font-size: small; */
-  font-size: 13px;
-  line-height: 1.13em;
+  font-size: 16px;
+  line-height: 1.7em;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+  font-size: 140%;
 }
 
 h1 {
@@ -39,15 +38,17 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #0aa;
+  text-decoration: none;
 }
 
 a:hover {
   color: black;
+  text-decoration: underline;
 }
 
 a:visited {
-  color: #a0a;
+  color: #0aa;
 }
 
 table {
@@ -83,12 +84,12 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 110%;
+  font-size: 1.0em;
   text-align: justify;
   width: 40em;
   /* margin: 3em auto 2em auto; */
-  margin: 3em auto 2em 200px;
-  line-height: 1.5em;
+  margin: 3em auto 2em 210px;
+  line-height: 1.7em;
 }
 
 .title {
@@ -98,7 +99,7 @@ ul.posts {
 }
 
   .site .title a {
-    color: #a00;
+    color: #0aa;
     text-decoration: none;
   }
 
@@ -117,17 +118,24 @@ ul.posts {
   }
 
   .site .meta {
-    color: #aaa;
+    color: #666;
   }
 
   .site .footer {
-    position: absolute;
-    top: 10px;
-    left: 30px;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    padding: 10px;
+    background: #a4d6ce;
+    max-height: 50%;
     font-size: 80%;
-    color: #666;
-    margin-top: 2em;
+    color: #444;
     overflow: hidden;
+    border-right: 3px solid #fff;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 5px rgba(100,100,100, 1.0);
   }
 
     .site .footer .contact {
@@ -135,20 +143,22 @@ ul.posts {
       text-align: center;
       font-weight: bold;
       float: left;
-      margin-right: 3em;
     }
 
       .site .footer .contact a {
-        color: #8085C1;
+        color: #444;
+        text-shadow: 0 1px #8DD;
       }
 
       .site .footer .contact img {
         margin: 10px 20px 10px 20px;
         filter: gray;
-        border-radius: 13px;
-        -webkit-border-radius: 13px;
-        box-shadow: 0 0 5px rgba(170,0,0,0.4);
-        -webkit-box-shadow: 0 0 5px rgba(170,0,0,0.4);
+        /*border-radius: 13px;*/
+        /*-webkit-border-radius: 13px;*/
+        box-shadow: 0 0 6px #666;
+        -webkit-box-shadow: 0 0 6px #666;
+        border: 5px solid #fff;
+
         color: #a00;
       }
 
@@ -171,6 +181,12 @@ ul.posts {
 #post {
 
 }
+
+  #post img {
+    border: 5px solid #fff;
+    box-shadow: 0 0 6px #666;
+    -webkit-box-shadow: 0 0 6px #666;
+  }
 
   /* standard */
 
