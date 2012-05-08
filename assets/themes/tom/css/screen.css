@@ -65,7 +65,6 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
 }
 
   ul.posts li {
@@ -201,7 +200,6 @@ ul.posts {
 
   #post ul,
   #post ol {
-    margin-left: 1.35em;
   }
 
   #post code {
