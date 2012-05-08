@@ -8,9 +8,9 @@
 </div>
 <a href="{{ HOME_PATH }}" class=".tk-museo-sans">Back to Posts</a>
 
-<div id="related"> 
+<div id="related" class=".tk-museo-sans"> 
   <h2 class=".tk-ff-enzo-web">Related Posts</h2>
-  <ul class="posts" class=".tk-museo-sans">
+  <ul class="posts">
     {% for post in site.related_posts limit:3 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}

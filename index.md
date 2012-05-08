@@ -7,9 +7,9 @@ tagline: Supporting tagline
 <!--h1>
     Blog Posts:
 </h1-->
-<ul class="posts" class="tk-museo-sans">
+<ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo;&nbsp;&nbsp;&nbsp; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date_to_string }}</span> &raquo;&nbsp;&nbsp;&nbsp; <a href="{{ BASE_PATH }}{{ post.url }}" class="tk-museo-sans">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
