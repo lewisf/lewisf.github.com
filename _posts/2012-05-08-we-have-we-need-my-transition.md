@@ -44,7 +44,8 @@ in order to render it in the template.
 As an example, routing definitions in Django can involve multiple urls.py's where 
 I have to write regex's to do url matching and mess with a bunch of options. Admittedly, 
 they are simple regexes, but Rails' notion of defining things in single routes.rb through
-pre-defined helper functions through `resources` is much easier.
+pre-defined helper functions like `resources` to get your basic CRUD/REST apis is easier,
+cleaner, and encourages better design.
 
 - **ActiveRecord vs Django Query Language.** A lot of purists probably enjoy writing raw
 queries, but when it comes to the simple queries, I like expressive query languages. Unfortunately,
