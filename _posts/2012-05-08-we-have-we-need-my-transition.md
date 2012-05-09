@@ -13,21 +13,20 @@ offtime, and an overall awesome attempt at solving the problem of supply deficie
 a lack of communication and supply management in regions of the world that 
 suffer from frequent disease outbreaks.
 
-I [@_lewisf](http://twitter.com/#!/_lewisf), along with some other students joined 
-[We Have We Need](http://www.wehave-weneed.org) about 5 weeks ago out of interest in the 
-project and admittedly Jon doing  a good job recruiting me to the project. I was 
+I, [@_lewisf](http://twitter.com/#!/_lewisf), along with some other students joined 
+[We Have We Need](http://www.wehave-weneed.org) about 5 weeks ago partly out of interest in the 
+project and partly Jon doing a good job recruiting me to be on the team. I was 
 partially heartbroken when I found the project to be in Django (as I had no prior 
-Django experience) but the experience of learning Django has been pleasant, probably 
+Django experience) but my experience with Django has been pleasant so far, probably 
 because of some of its similarities to Rails and the experience of those around me.
 
 Here are just a couple things I noted on my switch from Rails to Django over the course
 of the last 5 weeks.
 
-- **Asset Pipeline.** Rails 3 has spoils (or annoys but mostly spoils) developers  with the 
-built in asset pipeline, and the advantages it presents developers with - most importantly stylesheet, script organization.
-Combined with preprocessors like SASS and CoffeeScript, Rails' Asset Pipeline provided me
-with a painfree experience in dealing with having my scripts/styles available on the pages
-that need them. To get the something similar in Django, I plugged in 
+- **Asset Pipeline.** Rails 3 spoils (or annoys but mostly spoils) developers with the 
+built in asset pipeline. Rails' Asset Pipeline provided me with a painfree experience 
+in dealing with having my scripts/styles available on the pages that need them. To get 
+the something similar in Django, I plugged in 
 [django-mediagenerator](http://www.allbuttonspressed.com/projects/django-mediagenerator),
 which with little configuration allows me the freedom of developing with preprocessors without 
 having to run sass or coffeescript watchers, or having duplicate style/script files. Unfortunately
