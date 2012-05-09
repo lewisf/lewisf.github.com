@@ -39,21 +39,24 @@ in the methods in views.py. In Rails, it was convenient to just use `@var=5` and
 it in the template as `<%= @var %>`. In Django, we have to return a dictionary `{ var: 5 }` 
 in order to render it in the template.
 
-- **Less Magic.** Rails has a lot of magic. In Rails, I don't ever really have
-to define much to get a lot, whereas in Django, everything seems to have to be fine tuned.
-As an example, routing definition in Django involve urls.py where I have to write regex's
-to do url matching and mess with a bunch of options. Admittedly, they are simple regexes, 
-but Rails' notion of defining things in single routes.rb is much easier.
+- **Less Magic.** Rails has a lot of magic. Django, on the otherhand, much less so.
+As an example, routing definitions in Django can involve multiple urls.py's where 
+I have to write regex's to do url matching and mess with a bunch of options. Admittedly, 
+they are simple regexes, but Rails' notion of defining things in single routes.rb through
+pre-defined helper functions through `resources` is much easier.
+
 - **ActiveRecord vs Django Query Language.** A lot of purists probably enjoy writing raw
-queries, but when it comes to the simplest stuff, I like expressive query languages. Unfortunately,
+queries, but when it comes to the simple queries, I like expressive query languages. Unfortunately,
 Django's query language falls short to ActiveRecord in my opinion. I find myself writing a lot of
 User.objects.all - when in Rails it's pretty much implied that I want to query through all User objects.
+This is just a minor complaint, but this is just one among many others.
+
 - **Python imports.** I have to import everything. This is annoying because it gets messy fast, and I
 forget imports when writing new code way too often. Having the magic of Rails' automatically resolving
 dependencies at runtime is great.
 
-So I still love Rails, but Django has been very eye-opening in terms of how frameworks work. In fact,
-learning Django has gotten me to better understand Rails in a weird way, and to better appreciate 
+So I still love Rails, but Django has been very eye-opening in terms of how frameworks work (or don't work). 
+In fact, learning Django has gotten me to better understand Rails in a weird way, and to better appreciate 
 the decisions Rails has made for the sake of developer happiness. I'm probably still going to 
-default to Ruby on Rails for my web developing, but I'd be fine working in Django if the need
-ever arose again in the near future.
+default to Ruby on Rails for my personal projects, but I'd be fine working in Django if the need
+ever arose again in the future.
