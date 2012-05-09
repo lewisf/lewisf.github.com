@@ -23,8 +23,8 @@ because of some of its similarities to Rails and the experience of those around 
 Here are just a couple things I noted on my switch from Rails to Django over the course
 of the last 5 weeks.
 
-- **Asset Pipeline.** Rails 3 has spoiled me with the built in asset pipeline, and the
-advantages it presents developers with - most importantly stylesheet, script organization.
+- **Asset Pipeline.** Rails 3 has spoils (or annoys but mostly spoils) developers  with the 
+built in asset pipeline, and the advantages it presents developers with - most importantly stylesheet, script organization.
 Combined with preprocessors like SASS and CoffeeScript, Rails' Asset Pipeline provided me
 with a painfree experience in dealing with having my scripts/styles available on the pages
 that need them. To get the something similar in Django, I plugged in 
@@ -34,6 +34,7 @@ having to run sass or coffeescript watchers, or having duplicate style/script fi
 the documentation of mediagenerator seems to be everywhere. Unfortunately, there
 doesn't seem to be a lot of activity around mediagenerator anymore, so we may consider moving
 to another asset pipeline.
+
 - **Template variables.** Gotten used to throwing template variables into a dictionary that is returned
 in the methods in views.py. In Rails, it was convenient to just use `@var=5` and render
 it in the template as `<%= @var %>`. In Django, we have to return a dictionary `{ var: 5 }` 
@@ -51,9 +52,15 @@ Django's query language falls short to ActiveRecord in my opinion. I find myself
 User.objects.all - when in Rails it's pretty much implied that I want to query through all User objects.
 This is just a minor complaint, but this is just one among many others.
 
-- **Python imports.** I have to import everything. This is annoying because it gets messy fast, and I
-forget imports when writing new code way too often. Having the magic of Rails' automatically resolving
+- **Python imports.** It's the developer's job to import everything. This is annoying because it gets messy fast, and
+forgetting imports when writing new code WILL HAPPEN. Having the magic of Rails' automatically resolving
 dependencies at runtime is great.
+
+- **Django setup is weird.** Or maybe it's just because I'm coming from Rails. To setup rails, most people
+generally setup [rvm](https://rvm.io//) or [rbenv](http://rbenv.org/), install a version of ruby, go into
+a rails repository, and `bundle install`. For django, the python package manager is [pip](http://pypi.python.org/pypi/pip),
+and dependencies are defined in a requirements.txt. Dependencies are instead installed with
+`pip install -r requirements.txt`. Unfortunately, SASS is only available as a gem, so I had to add a Gemfile anyway. :(
 
 So I still love Rails, but Django has been very eye-opening in terms of how frameworks work (or don't work). 
 In fact, learning Django has gotten me to better understand Rails in a weird way, and to better appreciate 
