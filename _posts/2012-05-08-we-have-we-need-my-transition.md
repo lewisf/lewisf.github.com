@@ -7,7 +7,7 @@ tags: []
 {% include JB/setup %}
 
 **We Have We Need** intends to be a Craigslist for medical supplies targetted at Humanitarians and NGOS.
-Currently led by Jon Wong ([@jnwng](http://twitter.com/#!/jnwng), it's a project
+Currently led by Jon Wong ([@jnwng](http://twitter.com/#!/jnwng)), it's a project
 that saw its origins about 30 weeks ago, is built by a team of students during their
 offtime, and an overall awesome attempt at solving the problem of supply deficiencies due to
 a lack of communication and supply management in regions of the world that 
