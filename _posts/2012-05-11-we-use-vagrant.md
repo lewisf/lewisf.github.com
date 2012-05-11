@@ -44,12 +44,12 @@ needs to do at the most basic level now is:
 
 For example, after the basic dependencies listed above are installed, new developers can just run:
 
-`hg/git clone repo
-cd repo
-vagrant init
-vagrant box add lucid32 ~/path-to-box
-vagrant up # by default provisions the box depending on defined provisions
-fab serve  # a custom command we have to bootstrap and run the dev web server`
+    hg/git clone repo
+    cd repo
+    vagrant init
+    vagrant box add lucid32 ~/path-to-box
+    vagrant up # by default provisions the box depending on defined provisions
+    fab serve  # a custom command we have to bootstrap and run the dev web server
 
 And they will have our whole stack running in a VM on Ubuntu, if everything goes properly.
 **Vagrant shares the repo** between the virtual machine and your host machine, so that
