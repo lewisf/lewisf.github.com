@@ -65,6 +65,7 @@ table {
 
 ul.posts {
   list-style-type: none;
+  list-style-position: inside;
 }
 
   ul.posts li {
@@ -119,6 +120,7 @@ ul.posts {
 
   .site .meta {
     color: #555;
+    font-style: italic;
   }
 
   .site .footer {
@@ -199,6 +201,7 @@ ul.posts {
 
   #post ul,
   #post ol {
+    list-style-position: inside;
   }
 
   #post code {
