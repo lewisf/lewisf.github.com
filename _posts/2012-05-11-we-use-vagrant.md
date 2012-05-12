@@ -8,11 +8,10 @@ tags: []
 
 Having [We Have We Need](http://www.lewisf.com/2012/05/08/we-have-we-need-my-transition/)
 as a part of a university program is both a blessing and a curse. The obvious blessing is that
-the students get the support of faculty, and that there is a neverending supply of students
+the developers get the support of faculty, and there is a neverending supply of students
 to take on the project. The curse is that developer turn over is on average 10 weeks
-(1 quarter). Sure, some developers stay a couple of quarters, but there are new developers
-coming in every quarter, and it always ends up being a pain getting someone's development
-machine setup with all the necessary dependencies.
+(1 quarter), and most of them come in inexperienced. This means, every quarter it always 
+ends up being a pain getting someone's development machine setup from scratch.
 
 As an example, the **We Have We Need** stack consists at least:
 1. Django 1.3 (soon to be 1.4)
