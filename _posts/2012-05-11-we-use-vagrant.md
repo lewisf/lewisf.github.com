@@ -18,7 +18,7 @@ As an example, the **We Have We Need** stack consists at least:
 and so on. A newbie would take weeks to figure out why things aren't working.
 
 We fix this with **Vagrant**. Jon [(@jnwng)](http://www.twitter.com/#!/jnwng), who has lead the project
-for two quarters prior to make setting up development environments super trivial through
+for two quarters prior has made setting up development environments trivial through
 [Vagrant](http://ci.vagrantup.com/). What it allows us to do is create a virtual image of
 some version of Ubuntu (10.04 in our case) and either preload it with dependencies or use
 [Puppet](http://vagrantup.com/docs/provisioners/puppet.html), Chef, or some other provisioner 
@@ -48,6 +48,7 @@ you can edit using your favorite editor on your host machine, and the changes wi
 reflected in the VM. In addition, Vagrant [**port forwards**](http://vagrantup.com/docs/config/vm/forward_port.html), so I can access localhost:8000 in my browser on my host machine
 to view the site in development. So development works as seamlessly as if there was no
 VM there at all, and all without needing to personally figure out how to install dependencies and
-getting a machine ready in less than ten minutes.
+getting a machine ready in less than ten minutes. And Vagrant related files only really need
+to be maintained by one person, and pushed to the repository when updated.
 
 Magic.
