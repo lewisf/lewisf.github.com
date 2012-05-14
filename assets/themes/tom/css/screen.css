@@ -39,7 +39,7 @@ p {
 }
 
 a {
-  color: #0aa;
+  color: #099;
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ a:hover {
 }
 
 a:visited {
-  color: #0aa;
+  color: #099;
 }
 
 table {
@@ -100,7 +100,7 @@ ul.posts {
 }
 
   .site .title a {
-    color: #0aa;
+    color: #099;
     text-decoration: none;
   }
 
