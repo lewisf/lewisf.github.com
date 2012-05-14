@@ -6,12 +6,8 @@ tags: []
 ---
 {% include JB/setup %}
 
-Having [We Have We Need](http://www.lewisf.com/2012/05/08/we-have-we-need-my-transition/)
-as a part of a university program is both a blessing and a curse. The obvious blessing is that
-the developers get the support of faculty, and there is a neverending supply of students
-to take on the project. The curse is that developer turn over is on average 10 weeks
-(1 quarter), and most of them come in inexperienced. This means, every quarter it always 
-ends up being a pain getting someone's development machine setup from scratch.
+Our developer turnover rate @ [We Have We Need](http://www.lewisf.com/2012/05/08/we-have-we-need-my-transition/)
+is about 10 weeks. Setting up development machines is annoying, especially when the newbie is inexperienced.
 
 As an example, the **We Have We Need** stack consists at least:
 1. Django 1.3 (soon to be 1.4)
@@ -19,12 +15,7 @@ As an example, the **We Have We Need** stack consists at least:
 3. Fabric
 4. PIL
 5. nginx
-and so on.
-
-For experienced developers, this may be an easy setup, but for the inexperienced students
-coming in, it becomes difficult figuring out why installs go haywire, or why PostgreSQL 
-is complaining about no role or no database found (for a lot of undergraduates, this is
-their first exposure to a web framework/database).
+and so on. A newbie would take weeks to figure out why things aren't working.
 
 We fix this with **Vagrant**. Jon [(@jnwng)](http://www.twitter.com/#!/jnwng), who has lead the project
 for two quarters prior to make setting up development environments super trivial through
@@ -43,17 +34,18 @@ needs to do at the most basic level now is:
 
 For example, after the basic dependencies listed above are installed, new developers can just run:
 
-    hg/git clone repo
+    hg clone repo
     cd repo
     vagrant init
     vagrant box add lucid32 ~/path-to-box
     vagrant up # by default provisions the box depending on defined provisions
-    fab serve  # a custom command we have to bootstrap and run the dev web server
+    fab serve  # a custom Fabric command we have to bootstrap, run pending migrations, 
+               # and start the dev web server
 
-And they will have our whole stack running in a VM on Ubuntu, if everything goes properly.
-**Vagrant shares the repo** between the virtual machine and your host machine, so that
+That's all it takes to have our whole stack running in a VM on Ubuntu.
+[**Vagrant shares files**](http://vagrantup.com/docs/config/vm/share_folder.html) between the virtual machine and your host machine, so that
 you can edit using your favorite editor on your host machine, and the changes will be
-reflected in the VM. In addition, Vagrant port forwards, so I can access localhost:8000 in my browser on my host machine
+reflected in the VM. In addition, Vagrant [**port forwards**](http://vagrantup.com/docs/config/vm/forward_port.html), so I can access localhost:8000 in my browser on my host machine
 to view the site in development. So development works as seamlessly as if there was no
 VM there at all, and all without needing to personally figure out how to install dependencies and
 getting a machine ready in less than ten minutes.
