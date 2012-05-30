@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "We Have We Need Slide Deck"
+title: "We Have, We Need: Spring 2012"
 category: 
 tags: ['we have we need', 'haiti', 'college']
 ---
@@ -14,6 +14,7 @@ else interested could get a glimpse into what our project is about.
 
 So here it is:
 
-<script async class="speakerdeck-embed" data-id="4fc5ed7ec41f0f001f0071db" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<
+script async class="speakerdeck-embed" data-id="4fc5ed7ec41f0f001f0071db" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 Questions, comments, or interested in helping us out? You can drop me an email!
