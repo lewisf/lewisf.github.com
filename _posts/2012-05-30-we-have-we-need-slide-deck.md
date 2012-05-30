@@ -12,9 +12,7 @@ for prime time, we had to make a presentation to demonstrate our progress. I
 thought it'd be fitting to post a slide deck I put together here so that anybody
 else interested could get a glimpse into what our project is about.
 
-So here it is:
-
-<
-script async class="speakerdeck-embed" data-id="4fc5ed7ec41f0f001f0071db" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+[Here it is]
+(https://speakerdeck.com/u/lewisf/p/we-have-we-need-final-presentation)
 
 Questions, comments, or interested in helping us out? You can drop me an email!
