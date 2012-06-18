@@ -21,7 +21,9 @@ and the experience was 5 stars, would use again.
 I landed in a university-esque apartment, so it wasn't anything amazing, but it
 was nice and the subletters were really nice. I was surprised because I thought
 I was going to be staying in a 2 bedroom apartment, and it ended up 3 bedroom, shared
-with the original subletter, so meh, well shit happens.
+with the original subletter, so meh, well shit happens. One of the bedrooms doesn't
+have a bed or a desk and I don't have access to a car, so I took to [Taskrabbit](www.taskrabbit.com)
+and put out a job for someone to pick it up for me and have it delivered for about $50. Convenient.
 
 Walking around University District, Seattle made me forget all of that. This place
 is amazing ... the convenience of stores, the safety this city area instills in me,
