@@ -11,19 +11,11 @@ it might just be the intense craving for metropolitan living that's getting to m
 SEATTLE IS AMAZING.
 
 I flew into Seattle yesterday, and the first thing I did was request for a driver
-using [Uber](www.uber.com), picked up my bags and low and behold, my driver Tek
-was waiting for me outside in a black Ford Expedition SUV with leather seats, wow
-all for me. The whole ride was very enjoyable; my driver Tek, talked to me about
-life in general and gave me tips about what to do in Seattle, pointing out landmarks
-on the way. All in all, the fare was $75, kinda pricey, but I had $10 of credit,
-and the experience was 5 stars, would use again.
+using [Uber](www.uber.com). I picked up my bags 5 minutes later and low and behold, my driver Tek was waiting for me outside in a black Ford Expedition SUV with leather seats, wow all for me. The whole ride was very enjoyable; my driver Tek, talked to me about life in general and gave me tips about what to do in Seattle, pointing out landmarks on the way to University District where I am staying. All in all, the fare was $75, kinda pricey, but I had $10 of credit, and the experience was 5 stars, definitely would use again.
 
 I landed in a university-esque apartment, so it wasn't anything amazing, but it
 was nice and the subletters were really nice. I was surprised because I thought
-I was going to be staying in a 2 bedroom apartment, and it ended up 3 bedroom, shared
-with the original subletter, so meh, well shit happens. One of the bedrooms doesn't
-have a bed or a desk and I don't have access to a car, so I took to [Taskrabbit](www.taskrabbit.com)
-and put out a job for someone to pick it up for me and have it delivered for about $50. Convenient.
+I was going to be staying in a 2 bedroom apartment, and it ended up 3 bedroom, shared with the original subletter, so meh, well shit happens. One of the bedrooms doesn't have a bed or a desk and I don't have access to a car, so I took to [Taskrabbit](www.taskrabbit.com) and put out a job for someone to pick it up for me and have it delivered for about $50. Convenient.
 
 Walking around University District, Seattle made me forget all of that. This place
 is amazing ... the convenience of stores, the safety this city area instills in me,
