@@ -30,7 +30,7 @@ the something similar in Django, I plugged in
 [django-mediagenerator](http://www.allbuttonspressed.com/projects/django-mediagenerator),
 which with little configuration allows me the freedom of developing with preprocessors without 
 having to run sass or coffeescript watchers, or having duplicate style/script files. Unfortunately
-the documentation of mediagenerator seems to be everywhere. Unfortunately, there
+the documentation of mediagenerator seems to be everywhere and there
 doesn't seem to be a lot of activity around mediagenerator anymore, so we may consider moving
 to another asset pipeline.
 
