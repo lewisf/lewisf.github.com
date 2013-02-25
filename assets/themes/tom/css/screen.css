@@ -75,6 +75,7 @@ ul.posts {
     color: #555;
     font-family: 'Andale Mono', Monaco, "Courier New", monospace;
     font-size: 80%;
+    padding-right: 13px;
   }
 
 ul.nav {
