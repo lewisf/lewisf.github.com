@@ -18,7 +18,7 @@ html, body {
 body {
   color: #222;
   font-family: 'Roboto', Helvetica, Arial, sans;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 175%;
   font-weight: 300;
   text-align: center;
@@ -93,9 +93,9 @@ ul.posts {
 
 .title {
   color: #000;
-  margin-bottom: 2em;
+  margin-bottom: 0.4em;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
   .site .title a {
@@ -121,6 +121,7 @@ ul.posts {
     color: #555;
     font-style: italic;
     margin-top: 0;
+    margin-bottom: 4.0em;
   }
 
   .site .footer {
@@ -202,6 +203,7 @@ ul.posts {
   #post ul,
   #post ol {
     list-style-position: inside;
+    margin: 1em 0 2em 1em;
   }
 
   #post code {
