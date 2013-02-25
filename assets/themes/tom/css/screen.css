@@ -105,7 +105,7 @@ ul.nav {
 
 .title {
   color: #000;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.1em;
   font-weight: 500;
   font-size: 1.8em;
 }
@@ -134,6 +134,7 @@ ul.nav {
     font-style: italic;
     margin-top: 0;
     margin-bottom: 4.0em;
+    font-size: 0.8em;
   }
 
   .site .footer {
