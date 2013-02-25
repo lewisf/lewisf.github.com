@@ -77,6 +77,18 @@ ul.posts {
     font-size: 80%;
   }
 
+ul.nav {
+  list-style-type: none;
+  list-style-position: inside;
+  overflow: hidden;
+  margin: 1em 0 6em 1em;
+}
+
+  ul.nav li {
+      float: left;
+      margin-left: 30px;
+  }
+
 /*****************************************************************************/
 /*
 /* Site
@@ -129,7 +141,6 @@ ul.posts {
     top: 50px;
     left: 0px;
     padding: 10px;
-    background: url("/assets/images/noise.jpg");
     max-height: 50%;
     font-size: 80%;
     color: #444;
