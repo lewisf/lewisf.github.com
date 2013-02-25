@@ -15,4 +15,8 @@ tagline: Supporting tagline
 <p>
     Starting in August 2013, Lewis will begin working for <a href="aws.amazon.com">Amazon Web Services</a>.
 </p>
+<p>
+    To get in contact with me, feel free to contact me on <a href="https://twitter.com/_lewisf">Twitter</a>
+    or send me an <a href="mailto:lewis.f.chung@gmail.com">Email</a>.
+</p>
 
