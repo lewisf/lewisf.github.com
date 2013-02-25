@@ -16,22 +16,21 @@ html, body {
 }
 
 body {
-  background: url("/assets/images/noise-bg.jpg");
-  color: #444;
-  /*font-family: “Palatino Linotype”,”Book Antiqua”,Palatino,FreeSerif,serif;*/
-  /*font-size: small; */
-  font-size: 16px;
-  line-height: 1.7em;
+  color: #222;
+  font-family: 'Roboto', Helvetica, Arial, sans;
+  font-size: 20px;
+  line-height: 175%;
+  font-weight: 300;
   text-align: center;
   text-shadow: 0 1px #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 140%;
+  font-size: 100%;
 }
 
 h1 {
-  margin-bottom: 1em;
+  margin-bottom: 0em;
 }
 
 p {
@@ -69,7 +68,7 @@ ul.posts {
 }
 
   ul.posts li {
-    line-height: 1.75em;
+    line-height: 175%;
   }
 
   ul.posts span {
@@ -85,18 +84,18 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 1.0em;
   text-align: justify;
-  width: 40em;
+  width: 35em;
   /* margin: 3em auto 2em auto; */
-  margin: 3em auto 2em 210px;
-  line-height: 1.7em;
+  margin: 3em auto;
+  line-height: 1.75em;
 }
 
 .title {
-  color: #a00;
-  font-weight: bold;
+  color: #000;
   margin-bottom: 2em;
+  font-weight: 500;
+  font-size: 1.5em;
 }
 
   .site .title a {
@@ -121,6 +120,7 @@ ul.posts {
   .site .meta {
     color: #555;
     font-style: italic;
+    margin-top: 0;
   }
 
   .site .footer {
@@ -138,11 +138,11 @@ ul.posts {
     border-bottom: 3px solid #fff;
     border-radius: 0 5px 5px 0;
     box-shadow: 0 0 5px rgba(100,100,100, 1.0);
+    display: none;
   }
 
     .site .footer .contact {
       text-align: center;
-      font-weight: bold;
       float: left;
     }
 

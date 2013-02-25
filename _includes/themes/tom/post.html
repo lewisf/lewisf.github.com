@@ -1,20 +1,26 @@
-<div id="post" class="tk-museo-sans">
-  <h1 class="tk-hedley-new-web">{{ page.title }}</h1>
+<div id="post">
+  <h1 class="title">{{ page.title }}</h1>
   <p class="meta">
     {{ page.date | date_to_long_string }} 
     {% if page.location %}{{ page.location }}{% endif %}
   </p>
   {{ content }}
 </div>
-<a href="{{ HOME_PATH }}" class="tk-museo-sans">Back to Posts</a>
 
+<a href="{{ HOME_PATH }}">Back to Posts</a>
+
+{% if site.related_posts.size != 0 %}
 <div id="related">
-  <h2 class="tk-hedley-new-web">Related Posts</h2>
+  <h2>Related Posts</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" class="tk-museo-sans">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
+{% else %}
+<div id="related">
+</div>
+{% endif %}
 
 {% include JB/comments %}
