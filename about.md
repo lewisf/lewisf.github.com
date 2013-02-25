@@ -13,6 +13,6 @@ tagline: Supporting tagline
     He is a software engineer by profession and highly values entrepreneurial spirit, minimalism, and positive-thinking.
 </p>
 <p>
-    Starting in August 2013, Lewis will begin working for <a href="www.amazon.com">Amazon.com</a>.
+    Starting in August 2013, Lewis will begin working for <a href="aws.amazon.com">Amazon Web Services</a>.
 </p>
 
