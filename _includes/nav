@@ -1,6 +1,16 @@
-<ul class="nav">
+<ul class="nav" onmouseover="highlightLinks(this)" onmouseout="unhighlightLinks(this)">
   <li><a href="/">Blog</a></li>
   <li><a href="{{ BASE_PATH }}{{site.about_path}}">About</a></li>
   <li><a href="https://twitter.com/_lewisf" target="_blank">Twitter</a></li>
   <li><a href="http://www.linkedin.com/pub/lewis-chung/17/21b/9b8" target="_blank">LinkedIn</a></li>
 </ul>
+
+<script type="text/javascript">
+    function highlightLinks(el) {
+        el.className += " hovered";
+    }
+
+    function unhighlightLinks(el) {
+        el.className = "nav";
+    }
+</script>

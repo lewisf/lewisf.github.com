@@ -82,13 +82,27 @@ ul.nav {
   list-style-type: none;
   list-style-position: inside;
   overflow: hidden;
-  margin: 1em 0 4.5em 1em;
+  margin: 1em 0 3.5em 1em;
 }
+
 
   ul.nav li {
       float: left;
       margin-left: 30px;
   }
+
+    ul.nav.hovered li a {
+      color: #099;
+    }
+
+    ul.nav li a {
+      color: #999;
+      text-decoration: none;
+    }
+
+    ul.nav li a:hover {
+      text-decoration: underline;
+    }
 
 /*****************************************************************************/
 /*
